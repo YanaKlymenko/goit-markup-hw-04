@@ -129,6 +129,10 @@ body {
 
 /* ----HERO---- */
 .hero {
+  max-width: 1600px;
+  min-height: 600px;
+  padding-top: 200px;
+  padding-bottom: 200px;
   background: var(--backgraund-first-color);
   background-image: linear-gradient(
       to right,
@@ -136,8 +140,9 @@ body {
       rgba(47, 48, 58, 0.4)
     ),
     url(../images/headerimg.jpg);
-  padding-top: 200px;
-  padding-bottom: 200px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 .hero-title {
   font-weight: 900;
