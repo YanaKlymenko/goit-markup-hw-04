@@ -107,9 +107,11 @@ body {
   display: flex;
   align-items: center;
 }
-.nav-item + .nav-item,
-.header-item {
+.nav-item + .nav-item {
   margin-left: 50px;
+}
+.header-item:not(:last-child) {
+  margin-right: 50px;
 }
 .nav-link {
   font-weight: 500;
@@ -119,6 +121,10 @@ body {
   color: currentColor;
   padding-top: 32px;
   padding-bottom: 32px;
+}
+.icon-header-contact {
+  margin-right: 10px;
+  fill: currentColor;
 }
 .header-list {
   color: var(--second-text-color);
