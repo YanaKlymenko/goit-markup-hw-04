@@ -70,8 +70,6 @@ body {
 
 /*----HEADER---- */
 .header {
-  /* padding-top: 24px;
-  padding-bottom: 25px; */
   border-bottom: 1px solid #ececec;
 }
 .header-wrap,
@@ -144,6 +142,7 @@ body {
   min-height: 600px;
   padding-top: 200px;
   padding-bottom: 200px;
+  margin: 0 auto;
   background: var(--backgraund-first-color);
   background-image: linear-gradient(
       to right,
